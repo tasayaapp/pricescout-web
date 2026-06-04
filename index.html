@@ -221,7 +221,7 @@
     text-decoration: none;
   }
   .nav-logo-img {
-    height: 36px;
+    height: 52px;
     width: auto;
     display: block;
   }
@@ -253,8 +253,16 @@
     z-index: 0;
   }
 
-  .hero-badge {
+  .hero-logo {
     position: relative; z-index: 1;
+    margin-bottom: 20px;
+  }
+  .hero-logo img {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
     display: inline-flex; align-items: center; gap: 6px;
     background: var(--blue-light); color: var(--blue-dark);
     border-radius: 999px; padding: 6px 16px;
@@ -636,7 +644,7 @@
   }
   .footer-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
   .footer-logo-img {
-    height: 28px;
+    height: 48px;
     width: auto;
     display: block;
     filter: brightness(0) invert(1);
@@ -723,6 +731,10 @@
 <!-- HERO -->
 <div class="hero">
   <div class="hero-bg"></div>
+
+  <div class="hero-logo">
+    <img src="Logo.png" alt="PriceScout" />
+  </div>
 
   <div class="hero-badge">
     <div class="hero-badge-dot"></div>
